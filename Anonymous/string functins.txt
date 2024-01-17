@@ -1,0 +1,23 @@
+string functions
+getline(cin,str name)
+s1.append(s2)->concatenate
+or
+s1+s2;
+s2.compare(s1);
+s1.clear();
+ if(s1.empty());
+s1.erase(p,n);
+s1.find("xy");                  ->index no.;
+s1.insert(2,"hhj");                 
+s1.size()/s1.length();
+s1.substr(p,n);
+
+int x=stoi(s1)//string to int
+to_string()//int to string
+
+
+#include<algorithm>
+sort(s1.begin(),s1.end());//ascending order
+sort(s1.begin(),s1.end()s,greater<int>());//descending order
+transform(s.begin(),s.end(),s.begin(),::toupper);//to UPPERCASE
+transform(s.begin(),s.end(),s.begin(),::tolower);//to LOWERCASE

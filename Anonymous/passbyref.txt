@@ -1,0 +1,35 @@
+PASS BY REFERENCE
+
+*The call/pass by ref method of passing arg to a func copies the 
+ ref of an arg into the formal parameter.
+
+*Inside the func,the ref is used to accesss the actual arg used in the call.
+ Changes made to the parameter affect the passed argument(Effects).
+
+*To pass the value by ref,arg ref is passed just like another value.
+
+void passbyref(int &x,int &y)
+{
+ int z=x;
+ x=y;
+ y=z;
+}
+
+
+PASS BY POINTER/CALL BY ADDRESS
+
+*The call by pointer method of passing arg to a func. copies the address of
+ arg into the formal parameter.
+
+*Inside the func,the address is used to access the actual argument used in
+the call. (Effects)
+
+*0 To pass the value of pointer arg pointers are passed to func just like value.
+
+void passByReference(int *x,int *y)
+{
+   int z=*x;
+   *x=*y;
+   *y=z;
+}
+call(&x);
